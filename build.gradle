@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group = 'net.bit.reviewer'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.telegram:telegrambots:6.9.0'
+}
